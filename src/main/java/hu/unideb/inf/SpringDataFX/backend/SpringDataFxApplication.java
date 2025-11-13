@@ -1,7 +1,7 @@
-package hu.unideb.inf.SpringDataFX;
+package hu.unideb.inf.SpringDataFX.backend;
 
-import hu.unideb.inf.SpringDataFX.model.Person;
-import hu.unideb.inf.SpringDataFX.model.PersonRepository;
+import hu.unideb.inf.SpringDataFX.backend.model.Person;
+import hu.unideb.inf.SpringDataFX.backend.model.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
