@@ -31,4 +31,10 @@ public class SpringDataFxApplication implements CommandLineRunner {
 
 		personRepository.save(p);
 	}
+
+	public void print(){
+		for (Person p : personRepository.findAll()){
+			System.out.println(p);
+		}
+	}
 }
